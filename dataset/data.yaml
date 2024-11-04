@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['Volleyball', 'serve']
+
+roboflow:
+  workspace: volleyball-recognizer
+  project: ball_2-zhivp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/volleyball-recognizer/ball_2-zhivp/dataset/1
